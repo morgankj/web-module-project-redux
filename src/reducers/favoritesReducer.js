@@ -5,7 +5,7 @@ const initialState = {
     displayFavorites: true
 }
 
-const favoritesReducer = (state = initialState, action)=> {
+const favoritesReducer = (state = initialState, action) => {
     switch(action.type) {
         case(TOGGLE_FAVORITES): {
             return {
