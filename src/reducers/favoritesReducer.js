@@ -31,5 +31,3 @@ const favoritesReducer = (state = initialState, action) => {
 }
 
 export default favoritesReducer;
-
-// adding a comment to test my git process
